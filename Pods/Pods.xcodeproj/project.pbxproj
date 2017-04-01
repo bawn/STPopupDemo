@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19610AF8222DFCD9F024E99141F853C3 /* STPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = 40AADE17391867715C3AFEAB886E43E0 /* STPopup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		200EB7042DD6BFF18F2C5DD93631C6C4 /* UIViewController+STPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = D1682A40C2A315EE63058C6684CCFA2E /* UIViewController+STPopup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C5925FBE9BBAD39C5456206F501FD00 /* STPopupControllerTransitioningFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 74264D02B100F32B950FDFD2452646A7 /* STPopupControllerTransitioningFade.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2C75285B96B669663146163435D58ED5 /* STPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186AE93BE949A5C64627CED53E128FC /* STPopupController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2DCA36DA2B5ABCD820F1BD8E2F069166 /* STPopupControllerTransitioningSlideVertical.m in Sources */ = {isa = PBXBuildFile; fileRef = C504B7C17B08511B7475CA6563B9F67B /* STPopupControllerTransitioningSlideVertical.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3E18F928E32B44B7C9F4E7CA3A2E666D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6F669F8CA4F19F67400B6559EA47335F /* STPopupControllerTransitioningSlideVertical.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B2A7FDE61434EB0E50F74CDB1EE593 /* STPopupControllerTransitioningSlideVertical.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0E2B1A9E68B11BD41D66EBA0C94368 /* STPopupControllerTransitioningFade.h in Headers */ = {isa = PBXBuildFile; fileRef = C38D9C87A59E1FD52533C2A5F909CD34 /* STPopupControllerTransitioningFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90002F017BE40BD961CB59F8DD2A2047 /* Pods-STPopupDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 739B5FA0A541B1F3761C21DD9807F924 /* Pods-STPopupDemo-dummy.m */; };
+		975B753E0E57C6D8C923D53995A51E6F /* STPopupLeftBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C09A4A04A7B62F5884E18CA05B285C36 /* STPopupLeftBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A44400DDA900714F070EBD66A92C1F2E /* UIResponder+STPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F8BF43927A8CB658424DA6BC0F107B /* UIResponder+STPopup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6048E889B84D160EABB27422B37F73 /* UIResponder+STPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B74696AC0244B70C4E02BF21CFF82AF /* UIResponder+STPopup.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BB8DC5474B0761FD4331475F74FE61A0 /* UIViewController+STPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 995AC72B095F01D3184CF338E63CC597 /* UIViewController+STPopup.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BE651342959DF17CAF19D10D44C374A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C94784D1003C330C3F4BFA382013F09F /* STPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F791443ADE3A3948FB52D3F5D472711E /* STPopup-dummy.m */; };
+		CABF14E206C99EB8D603901551023CF1 /* STPopupNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A80E1982DFC45BF3C3F5C96BC97DE0 /* STPopupNavigationBar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E4109430030D9161112BA19D37D37893 /* STPopupLeftBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DC80E34475A77CDF634D2EB5AB3535 /* STPopupLeftBarItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F58A547861AEECA80B4BD6D5BE7D30F6 /* STPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0109DB9BAB560AE276C9A7201EBEB9DC /* STPopupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F73C816D7A2108BC7C31A44C84640FF9 /* STPopupNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9482F4A53C41F7860B3FCAC57B26EE /* STPopupNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24FC816D817A93415723E40DE22E3995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 936884B9700CA90B141F2FC5A116383D;
+			remoteInfo = STPopup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0109DB9BAB560AE276C9A7201EBEB9DC /* STPopupController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPopupController.h; path = STPopup/STPopupController.h; sourceTree = "<group>"; };
+		11A80E1982DFC45BF3C3F5C96BC97DE0 /* STPopupNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPopupNavigationBar.m; path = STPopup/STPopupNavigationBar.m; sourceTree = "<group>"; };
+		24B2A7FDE61434EB0E50F74CDB1EE593 /* STPopupControllerTransitioningSlideVertical.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPopupControllerTransitioningSlideVertical.h; path = STPopup/STPopupControllerTransitioningSlideVertical.h; sourceTree = "<group>"; };
+		2B74696AC0244B70C4E02BF21CFF82AF /* UIResponder+STPopup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+STPopup.m"; path = "STPopup/UIResponder+STPopup.m"; sourceTree = "<group>"; };
+		3F9658D9098CEBB03B0EBE55462C284A /* libSTPopup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSTPopup.a; path = libSTPopup.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		40AADE17391867715C3AFEAB886E43E0 /* STPopup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPopup.h; path = STPopup/STPopup.h; sourceTree = "<group>"; };
+		4186AE93BE949A5C64627CED53E128FC /* STPopupController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPopupController.m; path = STPopup/STPopupController.m; sourceTree = "<group>"; };
+		4C619139778474A9A1DFCF5CF170CEEF /* Pods-STPopupDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STPopupDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4CE6B13676E0ECB552E35AE37AE6969D /* STPopup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STPopup-prefix.pch"; sourceTree = "<group>"; };
+		507D1E4A00781825B17A8623D733C014 /* Pods-STPopupDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-STPopupDemo-frameworks.sh"; sourceTree = "<group>"; };
+		57DC80E34475A77CDF634D2EB5AB3535 /* STPopupLeftBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPopupLeftBarItem.m; path = STPopup/STPopupLeftBarItem.m; sourceTree = "<group>"; };
+		6095ECF23CBCFA8D08DE1817F8B2B903 /* STPopup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STPopup.xcconfig; sourceTree = "<group>"; };
+		66603C5887C93ED6F7BE5520E154DD87 /* Pods-STPopupDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STPopupDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		739B5FA0A541B1F3761C21DD9807F924 /* Pods-STPopupDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-STPopupDemo-dummy.m"; sourceTree = "<group>"; };
+		74264D02B100F32B950FDFD2452646A7 /* STPopupControllerTransitioningFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPopupControllerTransitioningFade.m; path = STPopup/STPopupControllerTransitioningFade.m; sourceTree = "<group>"; };
+		7F9482F4A53C41F7860B3FCAC57B26EE /* STPopupNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPopupNavigationBar.h; path = STPopup/STPopupNavigationBar.h; sourceTree = "<group>"; };
+		91BEB3B8BE16DC3DFF39051F3729F49D /* Pods-STPopupDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-STPopupDemo-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		995AC72B095F01D3184CF338E63CC597 /* UIViewController+STPopup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+STPopup.m"; path = "STPopup/UIViewController+STPopup.m"; sourceTree = "<group>"; };
+		9DADBED6CD0F9F5E4E00B4626677E77E /* libPods-STPopupDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-STPopupDemo.a"; path = "libPods-STPopupDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BD83AFE681E6142332CC4576701A40 /* Pods-STPopupDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-STPopupDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C09A4A04A7B62F5884E18CA05B285C36 /* STPopupLeftBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPopupLeftBarItem.h; path = STPopup/STPopupLeftBarItem.h; sourceTree = "<group>"; };
+		C38D9C87A59E1FD52533C2A5F909CD34 /* STPopupControllerTransitioningFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPopupControllerTransitioningFade.h; path = STPopup/STPopupControllerTransitioningFade.h; sourceTree = "<group>"; };
+		C504B7C17B08511B7475CA6563B9F67B /* STPopupControllerTransitioningSlideVertical.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPopupControllerTransitioningSlideVertical.m; path = STPopup/STPopupControllerTransitioningSlideVertical.m; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC9D15B0D0F9DBEFFF3BFE0F1D107B28 /* RevealServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevealServer.framework; path = "RevealServer-7/iOS/RevealServer.framework"; sourceTree = "<group>"; };
+		D1682A40C2A315EE63058C6684CCFA2E /* UIViewController+STPopup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+STPopup.h"; path = "STPopup/UIViewController+STPopup.h"; sourceTree = "<group>"; };
+		F0F8BF43927A8CB658424DA6BC0F107B /* UIResponder+STPopup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+STPopup.h"; path = "STPopup/UIResponder+STPopup.h"; sourceTree = "<group>"; };
+		F791443ADE3A3948FB52D3F5D472711E /* STPopup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STPopup-dummy.m"; sourceTree = "<group>"; };
+		FFB04AD89006FA65616A238BD82EEFBE /* Pods-STPopupDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STPopupDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		166FE5388022B66DDB05BC5F451E7618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE651342959DF17CAF19D10D44C374A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E615B745A8C25D1B135A8F49A74CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E18F928E32B44B7C9F4E7CA3A2E666D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35400330ABB8C60D4C82D31AB5D4D5FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC9D15B0D0F9DBEFFF3BFE0F1D107B28 /* RevealServer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45E3E61DFCDD9D94008C4903309C2BFB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6095ECF23CBCFA8D08DE1817F8B2B903 /* STPopup.xcconfig */,
+				F791443ADE3A3948FB52D3F5D472711E /* STPopup-dummy.m */,
+				4CE6B13676E0ECB552E35AE37AE6969D /* STPopup-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/STPopup";
+			sourceTree = "<group>";
+		};
+		4F808229CDEC6FB576052764D9CD9F3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F62B0B2F4DBDB0EC2C5ACC4C7D70EA14 /* Reveal-SDK */,
+				B7DE7C8CDFB8313672CB770A4147490D /* STPopup */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F9D9A393D58E94DF7BB3895398CED88 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C10902377316DD4FD2001810F3E52F79 /* Pods-STPopupDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4F808229CDEC6FB576052764D9CD9F3B /* Pods */,
+				FE5621BFF184F2EFD6066FD63AEE8C6A /* Products */,
+				6F9D9A393D58E94DF7BB3895398CED88 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B7DE7C8CDFB8313672CB770A4147490D /* STPopup */ = {
+			isa = PBXGroup;
+			children = (
+				40AADE17391867715C3AFEAB886E43E0 /* STPopup.h */,
+				0109DB9BAB560AE276C9A7201EBEB9DC /* STPopupController.h */,
+				4186AE93BE949A5C64627CED53E128FC /* STPopupController.m */,
+				C38D9C87A59E1FD52533C2A5F909CD34 /* STPopupControllerTransitioningFade.h */,
+				74264D02B100F32B950FDFD2452646A7 /* STPopupControllerTransitioningFade.m */,
+				24B2A7FDE61434EB0E50F74CDB1EE593 /* STPopupControllerTransitioningSlideVertical.h */,
+				C504B7C17B08511B7475CA6563B9F67B /* STPopupControllerTransitioningSlideVertical.m */,
+				C09A4A04A7B62F5884E18CA05B285C36 /* STPopupLeftBarItem.h */,
+				57DC80E34475A77CDF634D2EB5AB3535 /* STPopupLeftBarItem.m */,
+				7F9482F4A53C41F7860B3FCAC57B26EE /* STPopupNavigationBar.h */,
+				11A80E1982DFC45BF3C3F5C96BC97DE0 /* STPopupNavigationBar.m */,
+				F0F8BF43927A8CB658424DA6BC0F107B /* UIResponder+STPopup.h */,
+				2B74696AC0244B70C4E02BF21CFF82AF /* UIResponder+STPopup.m */,
+				D1682A40C2A315EE63058C6684CCFA2E /* UIViewController+STPopup.h */,
+				995AC72B095F01D3184CF338E63CC597 /* UIViewController+STPopup.m */,
+				45E3E61DFCDD9D94008C4903309C2BFB /* Support Files */,
+			);
+			name = STPopup;
+			path = STPopup;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C10902377316DD4FD2001810F3E52F79 /* Pods-STPopupDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A4BD83AFE681E6142332CC4576701A40 /* Pods-STPopupDemo-acknowledgements.markdown */,
+				FFB04AD89006FA65616A238BD82EEFBE /* Pods-STPopupDemo-acknowledgements.plist */,
+				739B5FA0A541B1F3761C21DD9807F924 /* Pods-STPopupDemo-dummy.m */,
+				507D1E4A00781825B17A8623D733C014 /* Pods-STPopupDemo-frameworks.sh */,
+				91BEB3B8BE16DC3DFF39051F3729F49D /* Pods-STPopupDemo-resources.sh */,
+				66603C5887C93ED6F7BE5520E154DD87 /* Pods-STPopupDemo.debug.xcconfig */,
+				4C619139778474A9A1DFCF5CF170CEEF /* Pods-STPopupDemo.release.xcconfig */,
+			);
+			name = "Pods-STPopupDemo";
+			path = "Target Support Files/Pods-STPopupDemo";
+			sourceTree = "<group>";
+		};
+		F62B0B2F4DBDB0EC2C5ACC4C7D70EA14 /* Reveal-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				35400330ABB8C60D4C82D31AB5D4D5FA /* Frameworks */,
+			);
+			name = "Reveal-SDK";
+			path = "Reveal-SDK";
+			sourceTree = "<group>";
+		};
+		FE5621BFF184F2EFD6066FD63AEE8C6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DADBED6CD0F9F5E4E00B4626677E77E /* libPods-STPopupDemo.a */,
+				3F9658D9098CEBB03B0EBE55462C284A /* libSTPopup.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EBBE2263CB00239EB17B102B5B2BF38A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19610AF8222DFCD9F024E99141F853C3 /* STPopup.h in Headers */,
+				F58A547861AEECA80B4BD6D5BE7D30F6 /* STPopupController.h in Headers */,
+				8D0E2B1A9E68B11BD41D66EBA0C94368 /* STPopupControllerTransitioningFade.h in Headers */,
+				6F669F8CA4F19F67400B6559EA47335F /* STPopupControllerTransitioningSlideVertical.h in Headers */,
+				975B753E0E57C6D8C923D53995A51E6F /* STPopupLeftBarItem.h in Headers */,
+				F73C816D7A2108BC7C31A44C84640FF9 /* STPopupNavigationBar.h in Headers */,
+				A44400DDA900714F070EBD66A92C1F2E /* UIResponder+STPopup.h in Headers */,
+				200EB7042DD6BFF18F2C5DD93631C6C4 /* UIViewController+STPopup.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48CA2E61441FDFDE77941402ADBE5A6E /* Pods-STPopupDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D30D302F194B068EF7089A7FFADAA8 /* Build configuration list for PBXNativeTarget "Pods-STPopupDemo" */;
+			buildPhases = (
+				E832CF08CD49B0BFA8BBD11F108BC86B /* Sources */,
+				166FE5388022B66DDB05BC5F451E7618 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B121567CC069B0D34313F425109F725 /* PBXTargetDependency */,
+			);
+			name = "Pods-STPopupDemo";
+			productName = "Pods-STPopupDemo";
+			productReference = 9DADBED6CD0F9F5E4E00B4626677E77E /* libPods-STPopupDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		936884B9700CA90B141F2FC5A116383D /* STPopup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114134CEC7D3A18DB5189FC4B11BF3A3 /* Build configuration list for PBXNativeTarget "STPopup" */;
+			buildPhases = (
+				5ACD1D4A12618B8CA90519B2C7078EFB /* Sources */,
+				E1E615B745A8C25D1B135A8F49A74CFE /* Frameworks */,
+				EBBE2263CB00239EB17B102B5B2BF38A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STPopup;
+			productName = STPopup;
+			productReference = 3F9658D9098CEBB03B0EBE55462C284A /* libSTPopup.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FE5621BFF184F2EFD6066FD63AEE8C6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48CA2E61441FDFDE77941402ADBE5A6E /* Pods-STPopupDemo */,
+				936884B9700CA90B141F2FC5A116383D /* STPopup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ACD1D4A12618B8CA90519B2C7078EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94784D1003C330C3F4BFA382013F09F /* STPopup-dummy.m in Sources */,
+				2C75285B96B669663146163435D58ED5 /* STPopupController.m in Sources */,
+				2C5925FBE9BBAD39C5456206F501FD00 /* STPopupControllerTransitioningFade.m in Sources */,
+				2DCA36DA2B5ABCD820F1BD8E2F069166 /* STPopupControllerTransitioningSlideVertical.m in Sources */,
+				E4109430030D9161112BA19D37D37893 /* STPopupLeftBarItem.m in Sources */,
+				CABF14E206C99EB8D603901551023CF1 /* STPopupNavigationBar.m in Sources */,
+				BA6048E889B84D160EABB27422B37F73 /* UIResponder+STPopup.m in Sources */,
+				BB8DC5474B0761FD4331475F74FE61A0 /* UIViewController+STPopup.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E832CF08CD49B0BFA8BBD11F108BC86B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90002F017BE40BD961CB59F8DD2A2047 /* Pods-STPopupDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B121567CC069B0D34313F425109F725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = STPopup;
+			target = 936884B9700CA90B141F2FC5A116383D /* STPopup */;
+			targetProxy = 24FC816D817A93415723E40DE22E3995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00286567ED2E97575B5F11DB422299A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6095ECF23CBCFA8D08DE1817F8B2B903 /* STPopup.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/STPopup/STPopup-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		051C373DA40A10671C3F9276601233C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66603C5887C93ED6F7BE5520E154DD87 /* Pods-STPopupDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD1471E197B46E6B6AB0F15C6130EEE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C619139778474A9A1DFCF5CF170CEEF /* Pods-STPopupDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E8D86B20079BC1FF2B1DCD7075796835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6095ECF23CBCFA8D08DE1817F8B2B903 /* STPopup.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/STPopup/STPopup-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		114134CEC7D3A18DB5189FC4B11BF3A3 /* Build configuration list for PBXNativeTarget "STPopup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D86B20079BC1FF2B1DCD7075796835 /* Debug */,
+				00286567ED2E97575B5F11DB422299A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D30D302F194B068EF7089A7FFADAA8 /* Build configuration list for PBXNativeTarget "Pods-STPopupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051C373DA40A10671C3F9276601233C9 /* Debug */,
+				BD1471E197B46E6B6AB0F15C6130EEE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
