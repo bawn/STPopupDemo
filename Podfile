@@ -5,5 +5,4 @@ platform:ios,'8.0'
 
 target 'STPopupDemo' do
   pod 'STPopup'
-  pod 'Reveal-SDK', :configurations => ['Debug']
 end
